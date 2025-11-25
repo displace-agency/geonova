@@ -19,7 +19,7 @@ const projects = [
     updated: "3 days ago",
     tags: ["Agriculture", "Analytics", "IoT"],
     description: "Real-time soil analysis dashboard integrating Geonova sensors with farmer tools.",
-    image: "https://images.unsplash.com/photo-1625246333195-58197bd47d72?q=80&w=2574&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?q=80&w=2670&auto=format&fit=crop"
   },
   {
     title: "Drone Calibration Toolkit",
@@ -28,7 +28,7 @@ const projects = [
     updated: "1 week ago",
     tags: ["Hardware", "Tools", "Developer"],
     description: "Open-source tools for calibrating Geonova drone sensors in field conditions.",
-    image: "https://images.unsplash.com/photo-1508614589041-895b8cba3e51?q=80&w=2574&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1579829366248-204fe8413f31?q=80&w=2670&auto=format&fit=crop"
   },
   {
     title: "Forest Biodiversity Mapper",
@@ -55,7 +55,7 @@ const projects = [
     updated: "2 days ago",
     tags: ["API", "Infrastructure", "Automation"],
     description: "Manage multi-drone operations, scheduling, and data syncing at scale.",
-    image: "https://images.unsplash.com/photo-1559067096-49ebca3406aa?q=80&w=2531&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1506947411487-a56738267384?q=80&w=2670&auto=format&fit=crop"
   }
 ];
 
@@ -78,9 +78,9 @@ const FeaturedProjects = () => {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover opacity-90 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-all duration-500" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-surface to-transparent opacity-50"></div>
               </div>
               
               <div className="p-6 flex-1 flex flex-col">

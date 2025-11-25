@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowUpRight } from '../../ui/Icons';
 
@@ -6,7 +7,7 @@ const newsData = [
     date: "09/12/2025",
     source: "AgTech Weekly",
     title: "Geonova Partners with Global Reforestation Initiative",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2613&auto=format&fit=crop",
+    image: "https://cdn.prod.website-files.com/68d7e767f6f7f8719914fd01/69234697cb9772262c06223e_geonova1.jpg",
     link: "#",
     layout: "featured"
   },
@@ -14,7 +15,7 @@ const newsData = [
     date: "08/29/2025",
     source: "Newswire",
     title: "Geonova Systems Raises Series B to Scale Soil Intelligence Platform",
-    image: "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=2574&auto=format&fit=crop",
+    image: "https://cdn.prod.website-files.com/68d7e767f6f7f8719914fd01/6923469752c17043a009c49c_geonova4.jpg",
     link: "#",
     layout: "highlight"
   },

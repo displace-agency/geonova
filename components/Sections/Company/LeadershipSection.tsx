@@ -32,7 +32,7 @@ const LeadershipSection = () => {
                  <img 
                     src={leader.image} 
                     alt={leader.name} 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale hover:grayscale-0" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
                  />
                  {/* Hover Overlay with Socials */}
                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
@@ -45,7 +45,7 @@ const LeadershipSection = () => {
                  </div>
               </div>
               
-              <div className="flex justify-between items-end border-t border-white/10 pt-4 group-hover:border-white/30 transition-colors">
+              <div className="flex justify-between items-end border-t border-black/10 pt-4 group-hover:border-black/30 transition-colors">
                  <div>
                     <h3 className="text-xl font-medium text-primary uppercase tracking-tight">{leader.name}</h3>
                     <p className="font-mono text-xs text-secondary uppercase mt-1">{leader.title}</p>

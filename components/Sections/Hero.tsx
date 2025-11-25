@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0 overflow-hidden">
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         <img 
-          src="https://cdn.prod.website-files.com/68d7e767f6f7f8719914fd01/69234697cb9772262c06223e_geonova1.jpg"
+          src="https://cdn.prod.website-files.com/68d7e767f6f7f8719914fd01/69234697654439019c99c38e_geonova5.jpg"
           alt="Geonova Landscape"
           className="w-full h-full object-cover"
         />

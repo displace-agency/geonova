@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ScrambleText from '../ui/ScrambleText';
@@ -61,7 +62,7 @@ const FurySection = () => {
                   muted 
                   loop 
                   playsInline 
-                  className="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-multiply grayscale contrast-125"
+                  className="absolute inset-0 w-full h-full object-cover opacity-90 mix-blend-multiply"
                >
                   {/* Using abstract topographic/data visuals */}
                   <source src="https://cdn.sanity.io/files/7bntl9uw/production/f5628549d447f20857502685956037a1a472911b.mp4" type="video/mp4" />
